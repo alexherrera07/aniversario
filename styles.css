@@ -49,8 +49,8 @@ body {
 .año{
     font-family: 'Nosifer', sans-serif;
     position: absolute;
-    top: 450px;
-    left: 200px;
+    top: 440px;
+    left: 230px;
     font-size: 20px;
     background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
     color: transparent;
