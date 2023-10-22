@@ -49,7 +49,7 @@ body {
 .año{
     font-family: 'Nosifer', sans-serif;
     position: absolute;
-    top: 440px;
+    top: 430px;
     left: 230px;
     font-size: 20px;
     background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
