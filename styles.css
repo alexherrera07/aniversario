@@ -1,0 +1,99 @@
+body {
+    background-color: #ff69b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    font-family: cursive;
+}
+
+.heart {
+    
+    background: #ff69b4;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform: rotate(-45deg);
+    margin: 0 auto;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    background: #ff69b4;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.heart::before {
+    left: 50px;
+    top: 0;
+}
+
+.heart::after {
+    left: 0;
+    top: -50px;
+}
+.año{
+    font-family: 'Nosifer', sans-serif;
+    position: absolute;
+    top: 180px;
+    left: 175px;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h1 {
+    color: #ff69b4;
+    margin-top: 20px;
+}
+
+p {
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    background: #ff69b4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff3366;
+}
+
+.surprise {
+    display: none;
+    color: #ff69b4;
+    font-size: 24px;
+    margin-top: 20px;
+    animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
