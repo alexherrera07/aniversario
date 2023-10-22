@@ -13,7 +13,7 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 20px;
-    width: 300px;
+    width: 400px;
     font-family: cursive;
 }
 
@@ -29,7 +29,7 @@ p {
     margin-top: 20px;
 }
 .frase{
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .animation-container {
@@ -38,6 +38,7 @@ p {
 
 /* Agrega estilos para la animación del corazón o cualquier otro elemento */
 .heart-animation {
+    background-color: #ff69b4;
     top: 20px;
     left: 100px;
     position: relative;
@@ -54,6 +55,7 @@ p {
     100% { transform: scale(0.9); }
 }
 .audio{
+    
     top: 870px;
     left: 100px;
     position: absolute;
