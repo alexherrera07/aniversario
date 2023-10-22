@@ -54,7 +54,7 @@ p {
     100% { transform: scale(0.9); }
 }
 .audio{
-    top: 810px;
+    top: 850px;
     left: 80px;
     position: absolute;
 }
