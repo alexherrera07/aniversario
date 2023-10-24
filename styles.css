@@ -47,15 +47,15 @@ body {
     top: -50px;
 }
 .conteiner-juntos{
-    height: 120px;
-    width: 130px;
+    height: 10%; 
+    width: 35%;  
     background: transparent;
     text-align: center;
     border-radius: 25px;
     position: absolute;
-    top: calc(23% - 61px); 
-    left: calc(50% - 65px); 
-    transform: translate(0, 0);
+    top: 18%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
 
 }
 .año{
