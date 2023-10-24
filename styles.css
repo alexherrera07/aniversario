@@ -58,6 +58,11 @@ body {
     transform: translate(-50%, -50%); 
 
 }
+@media (max-width: 768px) {
+    .conteiner-juntos {
+        top: 10%; /* Ajusta el valor para pantallas más pequeñas */
+    }
+}
 .año{
     font-family: 'Nosifer', sans-serif;
     background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
