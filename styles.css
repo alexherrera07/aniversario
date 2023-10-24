@@ -49,13 +49,13 @@ body {
 .conteiner-juntos{
     height: 120px;
     width: 130px;
-    background:transparent;
+    background: transparent;
     text-align: center;
     border-radius: 25px;
-    position: relative;
-    top: -330px;
-    left: 70px;
-    transform: translate(50%, -50%);
+    position: absolute;
+    top: calc(23% - 61px); 
+    left: calc(50% - 65px); 
+    transform: translate(0, 0);
 
 }
 .año{
